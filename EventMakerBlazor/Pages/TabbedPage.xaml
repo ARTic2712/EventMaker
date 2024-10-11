@@ -8,12 +8,12 @@
 
     <NavigationPage Title="One" IconImageSource="{StaticResource EventIcon}">
         <x:Arguments>
-            <local:HomePage Title="One" />
+            <local:HomePage/>
         </x:Arguments>        
     </NavigationPage>
     <NavigationPage Title="Account" IconImageSource="{StaticResource AccountIcon}">
         <x:Arguments>
-            <local:HomePage Title="Account" />
+            <local:MainPage/>
         </x:Arguments>
     </NavigationPage>
     
